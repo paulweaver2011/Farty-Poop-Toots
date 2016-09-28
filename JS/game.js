@@ -1,4 +1,5 @@
 //Main playah gonna play!
+
 var mainPlayer = {
     name: "Player",
     rank: "Pawn",
@@ -35,3 +36,5 @@ var thirdPrompt = parseInt(prompt("Please enter a number between 21 and 30."));
 var score = playGame(firstPrompt, secondPrompt, thirdPrompt);
 alert("Your score is " + score + ".");
 alert("Do you want to play again?")
+
+
